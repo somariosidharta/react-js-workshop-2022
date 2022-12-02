@@ -10,10 +10,8 @@ function UseStateClosure(props) {
 
   const handleClickAsync = () => {
     console.log("handlernya sudah onclick");
-    setTimeout(() => {
       // TODO: Find the Bugs
       setCount(count + 1);
-    }, 1000);
   };
 
   return (
